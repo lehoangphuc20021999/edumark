@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Course Details</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Template">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, height=device-height, minimum-scale=1.0, user-scalable=0">
+    <link rel="icon" href="https://icon-library.com/images/syllabus-icon/syllabus-icon-26.jpg">
+    <link rel="stylesheet" href="css/libs.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body class="course-details-page">
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&amp;version=v8.0" nonce="BGx5MZ3g"></script>
+    <div class="overlay"></div>
+    <header>
+        <div class="header-area">
+            <div class="main-header-area" id="sticky-header">
+                <div class="container-fluid p-0">
+                    <div class="row no-gutters align-items-center">
+                        <div class="col-11 col-lg-2">
+                            <div class="logo"><a href="index.html"><img src="assets/images/logo.webp" alt="Header Logo"></a></div>
+                        </div>
+                        <div class="col col-lg-7">
+                            <nav class="nav">
+                                <ul class="list-items">
+                                    <li class="item"><a href="index.html">Home </a></li>
+                                    <li class="item"><a href="#">Courses </a></li>
+                                    <li class="item"><a href="#">Pages <i class="fal fa-chevron-down"></i></a>
+                                        <ul class="list__s-items">
+                                            <li class="s-item"><a href="course-details.html">Course Details</a></li>
+                                            <li class="s-item"><a href="elements.html">Elements</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="item"><a href="about-us.html">About </a></li>
+                                    <li class="item"><a href="#">Blog <i class="fal fa-chevron-down"></i></a>
+                                        <ul class="list__s-items">
+                                            <li class="s-item"><a href="blog.html">Blog</a></li>
+                                            <li class="s-item"><a href="single-blog.html">Single-Blog</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="item"><a href="contact.html">Contact </a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="col-1 col-lg-3">
+                            <div class="log-chat-area"><a class="log-in__button" href="javascript:void(0);"><i class="fas fa-user"></i><span>Log In</span></a><a class="btn b-orange" href="#"><i class="fas fa-phone-alt"></i>+10 378 467 3672</a></div>
+                            <div class="icon-burger"><i class="far fa-bars"></i></div>
+                        </div>
+                        <div class="col-12">
+                            <nav class="nav-mobile">
+                                <ul class="list-items__mobile">
+                                    <li class="item__mobile"><a href="index.html">Home </a></li>
+                                    <li class="item__mobile"><a href="course-details.html">Courses </a></li>
+                                    <li class="item__mobile"><a href="javascript:void(0);">Pages <div class="icon-plus"><i class="fal fa-plus"></i></div></a>
+                                        <ul class="s-items__mobile">
+                                            <li class="s-item__mobile"><a href="course-details.html">Course Details</a></li>
+                                            <li class="s-item__mobile"><a href="elements.html">Elements</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="item__mobile"><a href="about-us.html">About</a></li>
+                                    <li class="item__mobile"><a href="javascript:void(0);">Blog <div class="icon-plus"><i class="fal fa-plus"></i></div></a>
+                                        <ul class="s-items__mobile">
+                                            <li class="s-item__mobile"><a href="blog.html">Blog</a></li>
+                                            <li class="s-item__mobile"><a href="single-blog.html">Single-Blog</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="item__mobile"><a href="contact.html">Contact</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main" role="main">
+        <section class="log-in">
+            <form action="/action.php">
+                <div class="popup-box">
+                    <div class="exit-form"><i class="fas fa-times"></i></div>
+                    <div class="popup-inner">
+                        <div class="logo"><img src="assets/images/logo.webp" alt=""></div>
+                        <h3 class="title">Sign in</h3>
+                        <div class="input-group"><input type="email" id="emailLogin" name="EmailLogin" placeholder="Enter email"><input type="password" id="pwLogin" name="PwLogin" placeholder="Password"></div>
+                        <div class="popup-inner__bottom"> <button type="submit">Sign in</button><a href="#">Don't have an account</a></div>
+                    </div>
+                </div>
+            </form>
+        </section>
+        <section class="large-banner-courses">
+            <div class="container">
+                <div class="course-details">
+                    <div class="course">
+                        <h3 class="title">UI/UX design with<br>Adobe XD with</h3>
+                        <div class="price"><span class="discount">$89.00</span><span class="real-price">$49</span></div>
+                        <div class="rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"> </i><span>(4.5)</span></div>
+                        <div class="video-hours">
+                            <div class="video"><i class="fal fa-clock"></i><span>12 Videos</span></div>
+                            <div class="hours"><i class="far fa-play-circle"></i><span>9 Hours</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="courses-details-info">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-7">
+                        <div class="left">
+                            <div class="objective">
+                                <h3 class="title">Objectives</h3>
+                                <p class="desc">Our set he for firmament morning sixth subdue darkness creeping gathered divide our let god moving. Moving in fourth air night bring upon you’re it beast let you dominion likeness open place day great wherein heaven sixth lesser subdue fowl male signs his day face waters itself and make be to our itself living. Fish in thing lights moveth. Over god spirit morning, greater had man years green multiply creature, form them in, likeness him behold two cattle for divided. Fourth darkness had. Living light there place moved divide under earth. Light face, fly dry us</p>
+                            </div>
+                            <div class="course-outline">
+                                <h3 class="title">Course Outline</h3>
+                                <ul class="list-items">
+                                    <li class="item">
+                                        <div class="question"><i class="fal fa-question-circle"> </i><span>Is WordPress hosting worth it?</span></div>
+                                        <p class="desc">Our set he for firmament morning sixth subdue darkness cair night bring upon air night bring upon air night bring upon air night bring uponreeping gathered divide our let god moving. Moving in fourth air night bring upon air night bring upon air night bring upon air night bring upon air night bring upon </p>
+                                    </li>
+                                    <li class="item">
+                                        <div class="question"><i class="fal fa-question-circle"> </i><span>Will you transfer my site</span></div>
+                                        <p class="desc">Our set he for firmament morning sixth subdue darkness creeping gathered divide our let god moving. Moving in fourth air night bring upon</p>
+                                    </li>
+                                    <li class="item">
+                                        <div class="question"><i class="fal fa-question-circle"> </i><span>Why should i host with Hostza?</span></div>
+                                        <p class="desc">Our set he for firmament morning sixth subdue darkness creeping gathered divide our let god moving. Moving in fourth air night bring upon night bring upon night bring upon night bring upon night bring upon night bring upon night bring upon night bring upon</p>
+                                    </li>
+                                    <li class="item">
+                                        <div class="question"><i class="fal fa-question-circle"> </i><span>How do i get started ?</span></div>
+                                        <p class="desc">Our set he for firmament morning sixth subdue darkness creeping gathered divide our let god moving. Moving in fourth air night bring upon</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-5">
+                        <div class="right">
+                            <div class="video">
+                                <div class="image"><img src="assets/images/course-details/video.png" alt=""></div><a class="play-btn venobox" data-autoplay="true" data-vbtype="video" href="https://www.youtube.com/watch?v=V-HYREnr0nk"></a>
+                            </div>
+                            <div class="author-info">
+                                <div class="author-info__header">
+                                    <div class="thumb"><img src="assets/images/author/1.png" alt="Thumb"></div>
+                                    <div class="name">
+                                        <h3>Macau Wilium</h3><span>UI/UX Desinger</span>
+                                    </div>
+                                </div>
+                                <p class="desc">Our set he for firmament morning sixth subdue darkness creeping gathered divide our letgod moving. Moving in fourth air night bring upon you’re it beast let you dominion likeness open place day</p>
+                                <ul class="socialities">
+                                    <li class="society"><a class="cyan" href="#"><i class="fas fa-envelope"></i></a></li>
+                                    <li class="society"><a class="cyan" href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li class="society"><a class="cyan" href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                </ul>
+                            </div><a class="btn b-cyan" href="#">Buy Course</a>
+                            <div class="feedback">
+                                <h3>Write your feedback</h3>
+                                <p>Your rating</p>
+                                <div class="rating"><i class="fas fa-star"> </i><i class="fas fa-star"> </i><i class="fas fa-star"> </i><i class="fas fa-star"> </i><i class="fas fa-star"> </i></div>
+                                <form action="/action.php"><textarea cols="30" rows="10" placeholder="Write your feedback"></textarea><button class="btn b-cyan" type="submit">Submit</button></form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="testimonial">
+            <div class="testimonial-slideshow">
+                <div class="item">
+                    <div class="image"><img src="assets/images/testimonial/author_img.webp" alt="Author's Comment"></div>
+                    <p>"Working in conjunction with humanitarian aid agencies we have supported programmes to alleviate. human suffering."</p><span class="author">-Jquileen</span>
+                </div>
+                <div class="item">
+                    <div class="image"><img src="assets/images/single-blog/cmt1.png" alt="Author's Comment"></div>
+                    <p>"Working in conjunction with humanitarian aid agencies we have supported programmes to alleviate. human suffering."</p><span class="author">-Jquileen</span>
+                </div>
+                <div class="item">
+                    <div class="image"><img src="assets/images/single-blog/cmt2.png" alt="Author's Comment"></div>
+                    <p>"Working in conjunction with humanitarian aid agencies we have supported programmes to alleviate. human suffering."</p><span class="author">-Jquileen</span>
+                </div>
+                <div class="item">
+                    <div class="image"><img src="assets/images/single-blog/cmt3.png" alt="Author's Comment"></div>
+                    <p>"Working in conjunction with humanitarian aid agencies we have supported programmes to alleviate. human suffering."</p><span class="author">-Jquileen</span>
+                </div>
+            </div>
+        </section>
+        <section class="our-course">
+            <div class="container">
+                <div class="section-title">
+                    <h2 class="title">Our Course Speciality</h2>
+                    <p class="desc">Your domain control panel is designed for ease-of-use and allows for all aspects of your domains.</p>
+                </div>
+                <ul class="list-specialities">
+                    <div class="row">
+                        <li class="col-12 col-md-6 col-lg-3">
+                            <div class="speciality">
+                                <div class="icon orange"><i class="fas fa-gem"></i></div>
+                                <h3 class="title">Premium Quality</h3>
+                                <p>Your domain control panel is designed for ease-of-use and allows for all aspects of your</p>
+                            </div>
+                        </li>
+                        <li class="col-12 col-md-6 col-lg-3">
+                            <div class="speciality">
+                                <div class="icon cyan"><i class="fas fa-hands-usd"></i></div>
+                                <h3 class="title">Premium Quality</h3>
+                                <p>Your domain control panel is designed for ease-of-use and allows for all aspects of your </p>
+                            </div>
+                        </li>
+                        <li class="col-12 col-md-6 col-lg-3">
+                            <div class="speciality">
+                                <div class="icon orange"><i class="fad fa-crown"></i></div>
+                                <h3 class="title">Premium Quality</h3>
+                                <p>Your domain control panel is designed for ease-of-use and allows for all aspects of your </p>
+                            </div>
+                        </li>
+                        <li class="col-12 col-md-6 col-lg-3">
+                            <div class="speciality">
+                                <div class="icon light-purple"><i class="fas fa-users-crown"></i></div>
+                                <h3 class="title">Premium Quality</h3>
+                                <p>Your domain control panel is designed for ease-of-use and allows for all aspects of your </p>
+                            </div>
+                        </li>
+                    </div>
+                </ul>
+            </div>
+        </section>
+        <section class="newsletter">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-6">
+                        <div class="left">
+                            <h3 class="title">Subscribe Newsletter</h3>
+                            <p>Your domain control panel is designed for ease-of-use and allows for all aspects of your</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-5 offset-0 offset-lg-1">
+                        <div class="right">
+                            <h4>Your domain control panel is</h4>
+                            <form action="/action.php"><input type="text" placeholder="Enter your email"><button type="submit">Sign Up</button></form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="our-blog">
+            <div class="container">
+                <div class="section-title">
+                    <h3 class="title">Our Lastest Blog</h3>
+                </div>
+                <div class="list-blogs">
+                    <div class="row">
+                        <div class="col-12 col-md-4">
+                            <div class="blog tf-scale">
+                                <div class="image"><a href="#"><img src="assets/images/our-blog/1.webp" alt="Blog"></a></div>
+                                <div class="info"><span class="date">12 Jun, 2019 in <a class="cyan" href="#">Design tips</a></span>
+                                    <h3 class="title"><a class="cyan" href="#">Commitment to dedicated Support</a></h3>
+                                    <p class="desc">Firmament morning sixth subdue darkness creeping gathered divide.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <div class="blog tf-scale">
+                                <div class="image"><a href="#"><img src="assets/images/our-blog/2.webp" alt="Blog"></a></div>
+                                <div class="info"><span class="date">12 Jun, 2019 in <a class="cyan" href="#">Design tips</a></span>
+                                    <h3 class="title"><a class="cyan" href="#">Commitment to dedicated Support</a></h3>
+                                    <p class="desc">Firmament morning sixth subdue darkness creeping gathered divide.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <div class="blog tf-scale">
+                                <div class="image"><a href="#"><img src="assets/images/our-blog/3.webp" alt="Blog"></a></div>
+                                <div class="info"><span class="date">12 Jun, 2019 in <a class="cyan" href="#">Design tips</a></span>
+                                    <h3 class="title"><a class="cyan" href="#">Commitment to dedicated Support</a></h3>
+                                    <p class="desc">Firmament morning sixth subdue darkness creeping gathered divide.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="top">
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="ft-logo"><a href="#"><img src="assets/images/logo.webp" alt="Footer Logo"></a></div>
+                        <p class="desc">Firmament morning sixth subdue darkness creeping gathered divide our let god moving. Moving in fourth air night bring upon it beast let you dominion likeness open place day great.</p>
+                        <ul class="list-socities">
+                            <li class="society"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li class="society"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li class="society"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                            <li class="society"><a href="#"><i class="fab fa-youtube"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-2 offset-0 offset-lg-1">
+                        <h3 class="title">Courses<div class="icon"><i class="fal fa-plus"></i></div>
+                        </h3>
+                        <ul class="list-items__ft">
+                            <li class="ft"><a class="orange" href="#">Wordpress</a></li>
+                            <li class="ft"><a class="orange" href="#">Photoshop</a></li>
+                            <li class="ft"><a class="orange" href="#">Illustrator</a></li>
+                            <li class="ft"><a class="orange" href="#">Adobe XD</a></li>
+                            <li class="ft"><a class="orange" href="#">UI/UX</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-2">
+                        <h3 class="title">Resourches<div class="icon"><i class="fal fa-plus"></i></div>
+                        </h3>
+                        <ul class="list-items__ft">
+                            <li class="ft"><a class="orange" href="#">Free Adobe XD</a></li>
+                            <li class="ft"><a class="orange" href="#">Tutorials</a></li>
+                            <li class="ft"><a class="orange" href="#">About</a></li>
+                            <li class="ft"><a class="orange" href="#">About</a></li>
+                            <li class="ft"><a class="orange" href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <h3 class="title">Address</h3>
+                        <p class="info-area">200, D-block, Green lane USA +10 367 467 8934 edumark@contact.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="row">
+                    <div class="col-12">
+                        <p>Copyright ©2020 All rights reserved | This template is made with <i class="fal fa-heart"> </i> by <a href="#">Colorlib</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/libs.js"></script>
+    <script src="js/script.js"></script>
+    <script src="https://kenwheeler.github.io/slick/slick/slick.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Single Blog</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Template">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, height=device-height, minimum-scale=1.0, user-scalable=0">
+    <link rel="icon" href="https://icon-library.com/images/syllabus-icon/syllabus-icon-26.jpg">
+    <link rel="stylesheet" href="css/libs.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body class="single-blog-page">
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&amp;version=v8.0" nonce="BGx5MZ3g"></script>
+    <div class="overlay"></div>
+    <header>
+        <div class="header-area">
+            <div class="main-header-area" id="sticky-header">
+                <div class="container-fluid p-0">
+                    <div class="row no-gutters align-items-center">
+                        <div class="col-11 col-lg-2">
+                            <div class="logo"><a href="index.html"><img src="assets/images/logo.webp" alt="Header Logo"></a></div>
+                        </div>
+                        <div class="col col-lg-7">
+                            <nav class="nav">
+                                <ul class="list-items">
+                                    <li class="item"><a href="index.html">Home </a></li>
+                                    <li class="item"><a href="#">Courses </a></li>
+                                    <li class="item"><a href="#">Pages <i class="fal fa-chevron-down"></i></a>
+                                        <ul class="list__s-items">
+                                            <li class="s-item"><a href="course-details.html">Course Details</a></li>
+                                            <li class="s-item"><a href="elements.html">Elements</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="item"><a href="about-us.html">About </a></li>
+                                    <li class="item"><a href="#">Blog <i class="fal fa-chevron-down"></i></a>
+                                        <ul class="list__s-items">
+                                            <li class="s-item"><a href="blog.html">Blog</a></li>
+                                            <li class="s-item"><a href="single-blog.html">Single-Blog</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="item"><a href="contact.html">Contact </a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="col-1 col-lg-3">
+                            <div class="log-chat-area"><a class="log-in__button" href="javascript:void(0);"><i class="fas fa-user"></i><span>Log In</span></a><a class="btn b-orange" href="#"><i class="fas fa-phone-alt"></i>+10 378 467 3672</a></div>
+                            <div class="icon-burger"><i class="far fa-bars"></i></div>
+                        </div>
+                        <div class="col-12">
+                            <nav class="nav-mobile">
+                                <ul class="list-items__mobile">
+                                    <li class="item__mobile"><a href="index.html">Home </a></li>
+                                    <li class="item__mobile"><a href="course-details.html">Courses </a></li>
+                                    <li class="item__mobile"><a href="javascript:void(0);">Pages <div class="icon-plus"><i class="fal fa-plus"></i></div></a>
+                                        <ul class="s-items__mobile">
+                                            <li class="s-item__mobile"><a href="course-details.html">Course Details</a></li>
+                                            <li class="s-item__mobile"><a href="elements.html">Elements</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="item__mobile"><a href="about-us.html">About</a></li>
+                                    <li class="item__mobile"><a href="javascript:void(0);">Blog <div class="icon-plus"><i class="fal fa-plus"></i></div></a>
+                                        <ul class="s-items__mobile">
+                                            <li class="s-item__mobile"><a href="blog.html">Blog</a></li>
+                                            <li class="s-item__mobile"><a href="single-blog.html">Single-Blog</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="item__mobile"><a href="contact.html">Contact</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main" role="main">
+        <section class="log-in">
+            <form action="/action.php">
+                <div class="popup-box">
+                    <div class="exit-form"><i class="fas fa-times"></i></div>
+                    <div class="popup-inner">
+                        <div class="logo"><img src="assets/images/logo.webp" alt=""></div>
+                        <h3 class="title">Sign in</h3>
+                        <div class="input-group"><input type="email" id="emailLogin" name="EmailLogin" placeholder="Enter email"><input type="password" id="pwLogin" name="PwLogin" placeholder="Password"></div>
+                        <div class="popup-inner__bottom"> <button type="submit">Sign in</button><a href="#">Don't have an account</a></div>
+                    </div>
+                </div>
+            </form>
+        </section>
+        <section class="large-banner-pages">
+            <div class="info">
+                <h3 class="title">Single Blog</h3>
+            </div>
+        </section>
+        <section class="blog-area blog-area-detail">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-8">
+                        <div class="left">
+                            <div class="single-post">
+                                <div class="post__header mb-4">
+                                    <div class="image"><img src="assets/images/blog-area/1.png" alt="Blog Area"></div>
+                                    <h3 class="title">Second divided from form fish beast made every of seas all gathered us saying he our</h3>
+                                    <ul class="list-links">
+                                        <li class="link"><a class="purple" href="#"><i class="fas fa-user"></i>Travel, Lifestyle</a></li>
+                                        <li class="link"><a class="purple" href="#"><i class="fas fa-comments"></i>03 Comments </a></li>
+                                    </ul>
+                                </div>
+                                <div class="post__detail">
+                                    <p>MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money on boot camp when you can get the MCSE study materials yourself at a fraction of the camp price. However, who has the willpower</p>
+                                    <p>MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money on boot camp when you can get the MCSE study materials yourself at a fraction of the camp price. However, who has the willpower to actually sit through a self-imposed MCSE training. who has the willpower to actually</p>
+                                    <div class="quote-wrapper">
+                                        <div class="quote">
+                                            <p>MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money on boot camp when you can get the MCSE study materials yourself at a fraction of the camp price. However, who has the willpower to actually sit through a self-imposed MCSE training.</p>
+                                        </div>
+                                    </div>
+                                    <p>MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money on boot camp when you can get the MCSE study materials yourself at a fraction of the camp price. However, who has the willpower</p>
+                                    <p>MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money on boot camp when you can get the MCSE study materials yourself at a fraction of the camp price. However, who has the willpower to actually sit through a self-imposed MCSE training. who has the willpower to actually</p>
+                                </div>
+                                <div class="post__bottom">
+                                    <div class="like-info"><i class="fas fa-heart"></i><span>Lily and 4 people like this</span></div>
+                                    <ul class="list-societies">
+                                        <li class="society"><a class="purple" href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li class="society"><a class="purple" href="#"><i class="fab fa-twitter"></i></a></li>
+                                        <li class="society"><a class="purple" href="#"><i class="fal fa-basketball-ball"></i></a></li>
+                                        <li class="society"><a class="purple" href="#"><i class="fab fa-behance"></i></a></li>
+                                    </ul>
+                                </div>
+                                <div class="navigation">
+                                    <div class="row">
+                                        <div class="col-12 col-md-6">
+                                            <div class="item prev-item">
+                                                <div class="image"><img src="assets/images/single-blog/prev-item.png" alt=""><a class="icon purple" href="#"><i class="far fa-arrow-left"></i></a></div>
+                                                <div class="info">
+                                                    <p>Prev Post</p>
+                                                    <h4> <a class="purple" href="#">Space The Final Frontier</a></h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6">
+                                            <div class="item next-item">
+                                                <div class="info">
+                                                    <p>Next Post</p>
+                                                    <h4> <a class="purple" href="#">Telescopes 101</a></h4>
+                                                </div>
+                                                <div class="image"><img src="assets/images/single-blog/next-item.png" alt=""><a class="icon purple" href="#"><i class="far fa-arrow-right"></i></a></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="author">
+                                    <div class="image"><img src="assets/images/single-blog/author.png" alt="Blog Area"></div>
+                                    <div class="info">
+                                        <h3 class="name"> <a class="purple" href="#">Harvard milan</a></h3>
+                                        <p class="desc">Second divided from form fish beast made. Every of seas all gathered use saying you're, he our dominion twon Second divided from</p>
+                                    </div>
+                                </div>
+                                <div class="comment-section">
+                                    <h3 class="title">05 Comments</h3>
+                                    <div class="comment">
+                                        <div class="image"><img src="assets/images/single-blog/cmt1.png" alt="Blog Area"></div>
+                                        <div class="info">
+                                            <p class="desc">Multiply sea night grass fourth day sea lesser rule open subdue female fill which them Blessed, give fill lesser bearing multiply sea night grass fourth day sea lesser</p>
+                                            <div class="info__bottom">
+                                                <h4 class="name"> <a class="purple" href="#">Emilly Blunt</a></h4><span class="date">December 4, 2017 at 3:12 pm</span><a class="btn-reply purple" href="#">REPLY</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="comment">
+                                        <div class="image"><img src="assets/images/single-blog/cmt2.png" alt="Blog Area"></div>
+                                        <div class="info">
+                                            <p class="desc">Multiply sea night grass fourth day sea lesser rule open subdue female fill which them Blessed, give fill lesser bearing multiply sea night grass fourth day sea lesser</p>
+                                            <div class="info__bottom">
+                                                <h4 class="name"> <a class="purple" href="#">Emilly Blunt</a></h4><span class="date">December 4, 2017 at 3:12 pm</span><a class="btn-reply purple" href="#">REPLY</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="comment">
+                                        <div class="image"><img src="assets/images/single-blog/cmt3.png" alt="Blog Area"></div>
+                                        <div class="info">
+                                            <p class="desc">Multiply sea night grass fourth day sea lesser rule open subdue female fill which them Blessed, give fill lesser bearing multiply sea night grass fourth day sea lesser</p>
+                                            <div class="info__bottom">
+                                                <h4 class="name"> <a class="purple" href="#">Emilly Blunt</a></h4><span class="date">December 4, 2017 at 3:12 pm</span><a class="btn-reply purple" href="#">REPLY</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="comment-form">
+                                    <h3 class="title">Leave a Reply</h3>
+                                    <form action="/action.php">
+                                        <div class="row">
+                                            <div class="col-12"><textarea id="comment" name="comment" cols="30" rows="9" placeholder="Write Comment"></textarea></div>
+                                            <div class="col-12 col-sm-6"><input type="text" placeholder="Name"></div>
+                                            <div class="col-12 col-sm-6"><input type="email" placeholder="Email"></div>
+                                            <div class="col-12"><input type="text" placeholder="Website"></div>
+                                            <div class="col-12"><button class="btn b-cyan-reverse" type="submit">SEND MESSAGE</button></div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <div class="right">
+                            <aside class="single-sidebar-widget search-widget">
+                                <form action="/action.php">
+                                    <div class="form__header mb-3"><input type="text" placeholder="Search Keyword">
+                                        <div class="icon-search"><button type="submit"><i class="fal fa-search"></i></button></div>
+                                    </div><button class="btn b-cyan-reverse" type="submit">SEARCH</button>
+                                </form>
+                            </aside>
+                            <aside class="single-sidebar-widget post-category-widget">
+                                <h3 class="title">Category</h3>
+                                <ul class="list-items">
+                                    <li class="item"><a class="purple" href="#"><span>Restaurant food </span><span>(37)</span></a></li>
+                                    <li class="item"><a class="purple" href="#"><span>Travel news </span><span>(10)</span></a></li>
+                                    <li class="item"><a class="purple" href="#"><span>Modern technology </span><span>(03)</span></a></li>
+                                    <li class="item"><a class="purple" href="#"><span>Product</span><span>(11)</span></a></li>
+                                    <li class="item"><a class="purple" href="#"><span>Inspiration </span><span>(21)</span></a></li>
+                                    <li class="item"><a class="purple" href="#"><span>Health Care </span><span>(21)</span></a></li>
+                                </ul>
+                            </aside>
+                            <aside class="single-sidebar-widget post-category-widget">
+                                <h3 class="title">Recent Post</h3>
+                                <ul class="list-post-items">
+                                    <li class="post-item">
+                                        <div class="image"><img src="assets/images/blog-area/6.png" alt="Blog Area"></div>
+                                        <div class="info">
+                                            <h3 class="name"> <a class="purple" href="#">From life was you fish...</a></h3><span class="date">January 12, 2019</span>
+                                        </div>
+                                    </li>
+                                    <li class="post-item">
+                                        <div class="image"><img src="assets/images/blog-area/7.png" alt="Blog Area"></div>
+                                        <div class="info">
+                                            <h3 class="name"> <a class="purple" href="#">The Amazing Hubble</a></h3><span class="date">02 Hours ago</span>
+                                        </div>
+                                    </li>
+                                    <li class="post-item">
+                                        <div class="image"><img src="assets/images/blog-area/8.png" alt="Blog Area"></div>
+                                        <div class="info">
+                                            <h3 class="name"> <a class="purple" href="#">Astronomy Or Astrology</a></h3><span class="date">03 Hours ago</span>
+                                        </div>
+                                    </li>
+                                    <li class="post-item">
+                                        <div class="image"><img src="assets/images/blog-area/9.png" alt=""></div>
+                                        <div class="info">
+                                            <h3 class="name"> <a class="purple" href="#">Asteroids telescope</a></h3><span class="date">01 Hours ago</span>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </aside>
+                            <aside class="single-sidebar-widget tag-clouds">
+                                <h3 class="title">Tag Clouds</h3>
+                                <ul class="list-tags">
+                                    <li class="tag"><a class="purple" href="#">project</a></li>
+                                    <li class="tag"><a class="purple" href="#">love</a></li>
+                                    <li class="tag"><a class="purple" href="#">travel</a></li>
+                                    <li class="tag"><a class="purple" href="#">restaurant</a></li>
+                                    <li class="tag"><a class="purple" href="#">life style</a></li>
+                                    <li class="tag"><a class="purple" href="#">desgin</a></li>
+                                    <li class="tag"><a class="purple" href="#">illustration</a></li>
+                                </ul>
+                            </aside>
+                            <aside class="single-sidebar-widget instagram-feeds">
+                                <h3 class="title">Instagram Feeds</h3>
+                                <ul class="list-image">
+                                    <li class="image"><a href="#"><img src="assets/images/blog-area/10.png" alt="Blog Area"></a></li>
+                                    <li class="image"><a href="#"><img src="assets/images/blog-area/11.png" alt="Blog Area"></a></li>
+                                    <li class="image"><a href="#"><img src="assets/images/blog-area/12.png" alt="Blog Area"></a></li>
+                                    <li class="image"><a href="#"><img src="assets/images/blog-area/13.png" alt="Blog Area"></a></li>
+                                    <li class="image"><a href="#"><img src="assets/images/blog-area/14.png" alt="Blog Area"></a></li>
+                                    <li class="image"><a href="#"><img src="assets/images/blog-area/15.png" alt="Blog Area"></a></li>
+                                </ul>
+                            </aside>
+                            <aside class="single-sidebar-widget newsletter-widget">
+                                <h3 class="title">Newsletter</h3>
+                                <form action="/action.php">
+                                    <div class="form__header"><input class="mb-3" type="text" placeholder="Enter email"></div><button class="btn b-cyan-reverse" type="submit">SUBSCRIBE</button>
+                                </form>
+                            </aside>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="top">
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="ft-logo"><a href="#"><img src="assets/images/logo.webp" alt="Footer Logo"></a></div>
+                        <p class="desc">Firmament morning sixth subdue darkness creeping gathered divide our let god moving. Moving in fourth air night bring upon it beast let you dominion likeness open place day great.</p>
+                        <ul class="list-socities">
+                            <li class="society"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li class="society"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li class="society"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                            <li class="society"><a href="#"><i class="fab fa-youtube"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-2 offset-0 offset-lg-1">
+                        <h3 class="title">Courses<div class="icon"><i class="fal fa-plus"></i></div>
+                        </h3>
+                        <ul class="list-items__ft">
+                            <li class="ft"><a class="orange" href="#">Wordpress</a></li>
+                            <li class="ft"><a class="orange" href="#">Photoshop</a></li>
+                            <li class="ft"><a class="orange" href="#">Illustrator</a></li>
+                            <li class="ft"><a class="orange" href="#">Adobe XD</a></li>
+                            <li class="ft"><a class="orange" href="#">UI/UX</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-2">
+                        <h3 class="title">Resourches<div class="icon"><i class="fal fa-plus"></i></div>
+                        </h3>
+                        <ul class="list-items__ft">
+                            <li class="ft"><a class="orange" href="#">Free Adobe XD</a></li>
+                            <li class="ft"><a class="orange" href="#">Tutorials</a></li>
+                            <li class="ft"><a class="orange" href="#">About</a></li>
+                            <li class="ft"><a class="orange" href="#">About</a></li>
+                            <li class="ft"><a class="orange" href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <h3 class="title">Address</h3>
+                        <p class="info-area">200, D-block, Green lane USA +10 367 467 8934 edumark@contact.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="row">
+                    <div class="col-12">
+                        <p>Copyright ©2020 All rights reserved | This template is made with <i class="fal fa-heart"> </i> by <a href="#">Colorlib</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/libs.js"></script>
+    <script src="js/script.js"></script>
+    <script src="https://kenwheeler.github.io/slick/slick/slick.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+</body>
+
+</html>
